@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9917448E-CABE-36E0-F7A9-D44D9010E8FA" name="T_EXE_PEDIDO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:18:31 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_pedido" id="D89E6E54-D9BF-6BBB-6CBA-9A35D76640C9">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:18:48 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="93EF83D3-23AD-523D-24BD-ACCD8AF5AC92">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:03:24 UTC</createdTime>
+<generatorID>F9884E32-D495-6A2A-30CC-26D11BF29FE0</generatorID>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<referedAttribute>77EB5C35-99E1-1345-2803-6C5AF3230D64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pedido" id="967BDD62-0D56-5DCC-AFCE-71934B798F37">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:18:48 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9B7483D-9F73-A404-AA42-52D29F147322" name="T_EXE_PEDIDO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:18:56 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D89E6E54-D9BF-6BBB-6CBA-9A35D76640C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REALIZAR" directorySegmentName="seg_0" id="F9884E32-D495-6A2A-30CC-26D11BF29FE0">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:03:24 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<sourcePk>BFE36622-6350-6CCF-38A6-12423738E3C6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F55FCCDF-5376-A22D-B884-B1FD88846350</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9917448E-CABE-36E0-F7A9-D44D9010E8FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

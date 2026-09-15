@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C5E3687-E1BB-0754-7393-B4D0481B5DF0" name="T_SIP_DEPENDENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:19:37 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="3F17A2F2-41A0-693E-124C-6B7C659E0C37" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="077A4C10-F264-B6ED-CE18-AD5F53542279">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:20:07 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="3F17A2F2-41A0-693E-124C-6B7C659E0C37" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="E8264588-339F-74E9-E3AB-A45BE323E39F">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:20:07 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="3F17A2F2-41A0-693E-124C-6B7C659E0C37" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="200F3E79-2579-DB7D-8D3C-2C1EE7B10B25">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:20:08 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="3F17A2F2-41A0-693E-124C-6B7C659E0C37" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0787E075-BBC5-A06B-FDC2-31F5AC37EAC3" name="T_SIP_DEPENDENTE PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:20:35 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="3F17A2F2-41A0-693E-124C-6B7C659E0C37" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>077A4C10-F264-B6ED-CE18-AD5F53542279</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

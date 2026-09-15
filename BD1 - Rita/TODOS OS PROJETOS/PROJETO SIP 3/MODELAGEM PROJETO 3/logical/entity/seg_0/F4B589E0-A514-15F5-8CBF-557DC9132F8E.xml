@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4B589E0-A514-15F5-8CBF-557DC9132F8E" name="T_EXE_CLIENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:14:54 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="9B0C017B-31C0-023F-B3A8-28FF1B3D5AAA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:15:19 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="C81268E9-4C1F-7BEF-96D2-924139804FD4">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:15:43 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5AC336BC-73D9-406D-F1D7-2D2060B70F6E" name="T_EXE_CLIENTE PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:15:40 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B0C017B-31C0-023F-B3A8-28FF1B3D5AAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

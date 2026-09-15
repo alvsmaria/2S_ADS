@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="315F1BB6-C67B-D872-9D2F-5968CFCCD729" name="T_EXE_LIVRO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:20:43 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_livro" id="B6C2DF8A-87EC-1F72-B7A0-62FD0AA3923E">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:20:54 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_categoria" id="F284DC2C-8A2D-7308-1DE4-4E3F57F18DCB">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:14:20 UTC</createdTime>
+<generatorID>0ACB80E0-B45E-573D-0B7D-F777C681DD11</generatorID>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<referedAttribute>1F339373-64E2-8832-CB01-86E8F3DD908F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_titulo" id="5E47B8C8-F5E8-52B9-6BE0-1BCC91115B83">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:20:54 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_isbn" id="1D4DB6F7-7B7C-5F75-2503-BA525C84675C">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:20:55 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C918629-23E1-BCEC-EA03-F4CD2F48D929" name="T_EXE_LIVRO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:20:58 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO 3</ownerDesignName>
+<engineerTo>
+<item key="2F38BDA3-E55E-CA1F-105A-D797D364F786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6C2DF8A-87EC-1F72-B7A0-62FD0AA3923E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
